@@ -57,7 +57,7 @@ create table friend_requests(
     target_user_id BIGINT unsigned not null,
     # status TINYINT(1),
     # status SET(1),
-    status ENUM('requested', 'approved', 'decline', 'unfriend'),
+    status ENUM('requested', 'approved', 'declined', 'unfriend'),
     created_at DATETIME default NOW(),
     updated_at DATETIME on update NOW(),
     
