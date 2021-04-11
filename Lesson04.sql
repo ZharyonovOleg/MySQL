@@ -60,7 +60,3 @@ where initiator_user_id = 1 and target_user_id = 4
 delete from users
 where firstname = 'Kristina' and id = 8
 ;
-
-
-# 1-21
-
